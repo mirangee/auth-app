@@ -1,6 +1,7 @@
-const LoginScreen = () => {
-  return (
-    
-}
+import AuthContent from '../components/Auth/AuthContent';
 
-export default LoginScreen
+const LoginScreen = () => {
+  return <AuthContent />;
+};
+
+export default LoginScreen;
